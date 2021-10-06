@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exercicio 3</h1>
+</body>
+<script>
+    let primo=0
+    var impar = prompt("Informe um número qualquer:","")
+    
+    for(i=2; i<impar; i++)
+    {
+        if(impar%i==0)
+        {
+            primo++
+            break;
+        }
+    }
+
+    if(primo==0)
+    {
+        alert("O número é primo")
+    }
+    else{
+        alert("O número não é primo")
+    }
+</script>
+</html>
